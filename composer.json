@@ -1,0 +1,21 @@
+{
+    "name": "jungleran/composer-group",
+    "license": "",
+    "type": "composer-plugin",
+    "description": "",
+    "authors": [
+        {
+            "name": "Jungle Ran",
+            "email": "jungle@ranqiangjun.com"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {"JungleRan\\Composer\\": "src"}
+    },
+    "extra": {
+        "class": "JungleRan\\Composer\\Plugin\\Group"
+    }
+}
