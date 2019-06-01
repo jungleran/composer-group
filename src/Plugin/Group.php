@@ -3,7 +3,7 @@
  * @file
  * Provides a way to patch Composer packages after installation.
  */
-namespace Jungleran\Composer\Plugin;
+namespace JungleRan\Composer\Plugin;
 
 use Composer\Composer;
 use Composer\DependencyResolver\Operation\InstallOperation;
