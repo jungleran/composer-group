@@ -24,7 +24,7 @@ use Composer\Installer\PackageEvent;
 use Composer\Util\ProcessExecutor;
 use Composer\Util\RemoteFilesystem;
 
-class Patches implements PluginInterface, EventSubscriberInterface, Capable {
+class Group implements PluginInterface, EventSubscriberInterface, Capable {
 
   /**
    * @var Composer $composer
