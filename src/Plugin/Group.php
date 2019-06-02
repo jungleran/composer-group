@@ -69,7 +69,6 @@ class Group implements PluginInterface, EventSubscriberInterface, Capable {
     $this->patches = array();
     $this->installedPatches = array();
     $this->patchesResolved = false;
-    $this->patchCollection = new PatchCollection();
     $this->configuration = [
       'exit-on-patch-failure' => [
         'type' => 'bool',
